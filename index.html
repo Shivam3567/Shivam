@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to JPG Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Name with animation at the top-left corner -->
+    <div class="animated-name" id="animatedName">Shivam</div>
+    
+    <div class="container fade-in">
+        <h1>PDF to JPG Converter</h1>
+        <input type="file" id="upload" accept="application/pdf">
+        <button id="convertBtn">Convert to JPG</button>
+        <div id="output"></div>
+    </div>
+
+    <!-- PDF.js and Custom JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
